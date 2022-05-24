@@ -33,5 +33,6 @@ try OldtownBrew().publish(using: [
   .copyResources(),
   .generateSiteMap(),
   .generateRSSFeed(including: [.posts]),
+  .addCNAME(customUrl: "blog.oldtown-brew.de"),
   .deploy(using: .gitHub("oldtown-brew/oldtown-brew", branch: "main", useSSH: false))
 ])

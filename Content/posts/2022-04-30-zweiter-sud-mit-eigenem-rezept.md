@@ -15,22 +15,32 @@ halt ein anderes Bier. Czech Saaz hat mir nicht so gefallen, weshalb ich mich
 für den Amarillo entschieden habe.
 
 Das ist mein Rezept:
-- Malze:
-  - 3,74kg Pilsner Malz
-  - 1,24kg Wiener Malz
-  - 132g Carahell
-- Hauptguss 20L
-- Eingemaischt bei 66°C
-- Rasten:
-  1. Rast 30 Minuten bei 64°C
-  2. Rast 45 Minuten bei 72°C
-- Abmaischen bei 78°C
-- Würzekochen 90 Minuten.
-- Hopfen:
-  - 40g Hallertau Tradition (6,3% Alphasäure), 90 Minuten kochen
-  - 8g Amarillo (9,0% Alphasäure), 60 Minuten kochen
-  - 12g Amarillo (9,0% Alphasäure), Whirlpool 80°C
-- Hefe: Hornindal Kveik OYL-091
+
+**Malze:**
+
+- 3,74kg Pilsner Malz
+- 1,24kg Wiener Malz
+- 132g Carahell
+
+<br/>**Hauptguss 20L**
+**Eingemaischt bei 66°C**
+
+**Rasten:**
+
+- 30 Minuten bei 64°C
+- 45 Minuten bei 72°C
+
+<br/>**Abmaischen bei 78°C**
+
+**Würzekochen: 90 Minuten**
+
+**Hopfen:**
+
+- 40g Hallertau Tradition (6,3% Alphasäure), 90 Minuten kochen
+- 8g Amarillo (9,0% Alphasäure), 60 Minuten kochen
+- 12g Amarillo (9,0% Alphasäure), Whirlpool 80°C
+
+<br/>**Hefe: Hornindal Kveik OYL-091**
 
 Nach der zweiten Rast war die Würze Jodnormal (im Gegensatz zu meinem ersten Sud).
 Auch der Durchfluss durch den Treber (nennt man das so?) war erheblich besser,
