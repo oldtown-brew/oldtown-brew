@@ -4,7 +4,7 @@ description: Heute habe ich mein erstes Jungbier abgefüllt, nachdem sich seit 4
 tags: Sude,Abfüllung 
 draft: false
 ---
-<img src="/Images/2022-03-31-abfuellung-triticum-wormatia/header.jpg" width="820"/>
+<img src="/Images/2022-03-31-abfuellung-triticum-wormatia/header.jpg" width="100%"/>
 #  Abfüllung: Triticum Wormatia
 
 Heute habe ich mein erstes Jungbier abgefüllt, nachdem sich seit 4 Tagen der Restextrakt nicht mehr geändert hat. 
@@ -15,9 +15,9 @@ den richtigen Füllstand hinzubekommen. Um eine Karbonisierung von 6,5g/l zu err
 Haushaltszucker hinzugefügt. Für die Berechnung habe ich den Rechner von 
 [Verschiedene Berechnungen rund ums Selbstgebraute](http://fabier.de/biercalcs.html) benutzt.
 
-<img src="/Images/2022-03-31-abfuellung-triticum-wormatia/1.jpg" width="360"/>
-<img src="/Images/2022-03-31-abfuellung-triticum-wormatia/2.jpg" width="360"/>
-<img src="/Images/2022-03-31-abfuellung-triticum-wormatia/3.jpg" width="360"/>
-<img src="/Images/2022-03-31-abfuellung-triticum-wormatia/4.gif" width="360"/>
+<img src="/Images/2022-03-31-abfuellung-triticum-wormatia/1.jpg" width="40%"/>
+<img src="/Images/2022-03-31-abfuellung-triticum-wormatia/2.jpg" width="40%"/>
+<img src="/Images/2022-03-31-abfuellung-triticum-wormatia/3.jpg" width="40%"/>
+<img src="/Images/2022-03-31-abfuellung-triticum-wormatia/4.gif" width="40%"/>
 
 

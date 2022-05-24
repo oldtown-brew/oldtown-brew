@@ -16,7 +16,7 @@ struct OldtownBrew: Website {
   }
 
   // Update these properties to configure your website:
-  var url = URL(string: "https://oldtown-brew.github.io")!
+  var url = URL(string: "https://blog.oldtown-brew.de/")!
   var name = "Oldtown Brew"
   var description = "Die Hobbybrauerei in Kirkel-Altstadt"
   var language: Language { .german }
@@ -32,5 +32,6 @@ try OldtownBrew().publish(using: [
   .generateHTML(withTheme: .oldtownBrew),
   .copyResources(),
   .generateSiteMap(),
-  .generateRSSFeed(including: [.posts])
+  .generateRSSFeed(including: [.posts]),
+  .deploy(using: .gitHub("oldtown-brew/oldtown-brew", branch: "main", useSSH: false))
 ])

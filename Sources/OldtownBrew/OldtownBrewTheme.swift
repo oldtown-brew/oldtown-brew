@@ -39,7 +39,7 @@ extension Theme where Site == OldtownBrew {
 
     func makeSectionHTML(for section: Section<OldtownBrew>, context: PublishingContext<OldtownBrew>) throws -> HTML {
       if section.id == .impressum {
-        var imprint = section.items.first
+        let imprint = section.items.first
 
         if let ip = imprint {
           return try makePageHTML(for: Page(path: ip.path, content: ip.content), context: context)
