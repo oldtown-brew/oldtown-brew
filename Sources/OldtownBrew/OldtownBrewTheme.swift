@@ -231,3 +231,9 @@ private struct Wrapper: ComponentContainer {
     Div(content: content).class("wrapper")
   }
 }
+
+func display(date: Date) -> String {
+  let formatter = DateFormatter()
+  formatter.dateStyle = .medium
+  return formatter.string(from: date)
+}
