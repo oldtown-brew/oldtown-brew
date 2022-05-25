@@ -172,7 +172,8 @@ footer {
     }
 
     .item-list > li {
-        background-color: #333;
+        color: #000;
+        background-color: #ffffff;
     }
 
     header {
