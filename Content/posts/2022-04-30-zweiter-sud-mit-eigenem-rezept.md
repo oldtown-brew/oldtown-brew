@@ -4,7 +4,7 @@ description: Heute habe ich meinen zweiten Sud gemacht. Eigentlich wollte ich Eu
 tags: Sude,Pale Ale,Rezept
 draft: false
 ---
-<img src="/Images/2022-04-30-zweiter-sud-mit-eigenem-rezept/header.jpg" width="100%"/>
+<img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/header.jpg" width="100%"/>
 # Zweiter Sud mit eigenem Rezept
 
 Heute habe ich meinen zweiten Sud gemacht. Eigentlich wollte ich Euch ja erst
@@ -16,32 +16,29 @@ für den Amarillo entschieden habe.
 
 Das ist mein Rezept:
 
-**Malze:**
+- **Malze:**
+  - 3,74kg Pilsner Malz
+  - 1,24kg Wiener Malz
+  - 132g Carahell
 
-- 3,74kg Pilsner Malz
-- 1,24kg Wiener Malz
-- 132g Carahell
+- **Hauptguss 20L**
+- **Einmaischen bei 66°C**
 
-<br/>**Hauptguss 20L**
-**Eingemaischt bei 66°C**
+- **Rasten:**
+  - 30 Minuten bei 64°C
+  - 45 Minuten bei 72°C
+- **Abmaischen bei 78°C**
 
-**Rasten:**
+- **Würzekochzeit: 90 Minuten**
 
-- 30 Minuten bei 64°C
-- 45 Minuten bei 72°C
+- **Hopfen:**
+  - 40g Hallertau Tradition (6,3% Alphasäure), 90 Minuten kochen
+  - 8g Amarillo (9,0% Alphasäure), 60 Minuten kochen
+  - 12g Amarillo (9,0% Alphasäure), Whirlpool 80°C
 
-<br/>**Abmaischen bei 78°C**
+- **Hefe: Hornindal Kveik OYL-091**
 
-**Würzekochen: 90 Minuten**
-
-**Hopfen:**
-
-- 40g Hallertau Tradition (6,3% Alphasäure), 90 Minuten kochen
-- 8g Amarillo (9,0% Alphasäure), 60 Minuten kochen
-- 12g Amarillo (9,0% Alphasäure), Whirlpool 80°C
-
-<br/>**Hefe: Hornindal Kveik OYL-091**
-
+<br/>
 Nach der zweiten Rast war die Würze Jodnormal (im Gegensatz zu meinem ersten Sud).
 Auch der Durchfluss durch den Treber (nennt man das so?) war erheblich besser,
 da ich das Malz selbst geschrotet habe; der Treber war nach dem abmaischen auch
@@ -57,11 +54,11 @@ hoffentlich noch einiges an Ananas dazu.
 Ich vergäre in einem Terminator von Brewolution; wenn ich mehr Erfahrungen mit
 dem Gerät gesammelt habe, werden ich ein Review schreiben.
 
-<img src="/Images/2022-04-30-zweiter-sud-mit-eigenem-rezept/1.jpg" width="40%"/>
-<img src="/Images/2022-04-30-zweiter-sud-mit-eigenem-rezept/2.jpg" width="40%"/>
-<img src="/Images/2022-04-30-zweiter-sud-mit-eigenem-rezept/3.jpg" width="40%"/>
-<img src="/Images/2022-04-30-zweiter-sud-mit-eigenem-rezept/4.jpg" width="40%"/>
-<img src="/Images/2022-04-30-zweiter-sud-mit-eigenem-rezept/5.jpg" width="40%"/>
-<img src="/Images/2022-04-30-zweiter-sud-mit-eigenem-rezept/6.jpg" width="40%"/>
-<img src="/Images/2022-04-30-zweiter-sud-mit-eigenem-rezept/7.jpg" width="40%"/>
-<img src="/Images/2022-04-30-zweiter-sud-mit-eigenem-rezept/8.jpg" width="40%"/>
+<img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/1.jpg" width="40%"/>
+<img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/2.jpg" width="40%"/>
+<img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/3.jpg" width="40%"/>
+<img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/4.jpg" width="40%"/>
+<img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/5.jpg" width="40%"/>
+<img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/6.jpg" width="40%"/>
+<img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/7.jpg" width="40%"/>
+<img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/8.jpg" width="40%"/>

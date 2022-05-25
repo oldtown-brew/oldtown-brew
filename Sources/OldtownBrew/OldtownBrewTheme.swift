@@ -188,7 +188,7 @@ private struct SiteHeader<Site: Website>: Component {
     Header {
       Wrapper {
         Link(url: "/") {
-          Image("/Images/Logo.png").attribute(Attribute<OldtownBrew>(name: "height", value: "60"))
+          Image("/images/Logo.png").attribute(Attribute<OldtownBrew>(name: "height", value: "60"))
         }
         .class("site-name")
 
