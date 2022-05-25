@@ -16,6 +16,7 @@ jobs:
     - name: Build
       run: swift build -v
     - name: Deploy to Github Pages
-      run: ./.build/debug/OldtownBrew --deploy
       env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        AUTHENTICATION_TOKEN: '${{ secrets.GH_TOKEN }}'
+      run: ./.build/debug/OldtownBrew --deploy
+      

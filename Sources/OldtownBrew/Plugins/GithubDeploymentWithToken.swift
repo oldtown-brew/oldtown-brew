@@ -15,7 +15,6 @@ extension DeploymentMethod {
   /// - parameter branch: The branch to push to and pull from (default is master).
   static func gitHub(_ repository: String, tokenEnvName: String, branch: String = "master") -> Self {
     let token = ProcessInfo.processInfo.environment[tokenEnvName]!
-    print("XXXXX\(token)")
     let prefix = "https://thbonk:\(token)@github.com/"
     return git("\(prefix)\(repository).git", branch: branch)
   }
