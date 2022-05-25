@@ -16,8 +16,8 @@ jobs:
     - name: Build
       run: swift build -v
     - name: Deploy to Github Pages
-#      with:
-#        super_secret: ${{ secrets.GH_TOKEN }}
+      with:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: |
         git config --global user.name "thbonk"
         git config --global user.email "thomas@meandmymac.de"
