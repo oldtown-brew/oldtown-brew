@@ -1,0 +1,20 @@
+baseURL = 'https://blog.oldtown-brew.de/'
+languageCode = 'de-de'
+title = 'Oldtown Brew'
+theme = "ananke"
+copyright = 'Thomas Bonk'
+defaultContentLanguage = 'de'
+
+staticDir = ['static']
+
+enableRobotsTXT = true
+show_reading_time = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/thbonk"
