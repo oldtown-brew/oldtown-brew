@@ -16,4 +16,4 @@ jobs:
     - name: Build
       run: swift build -v
     - name: Deploy to Github Pages
-      run: swift run OldtownBrew --deploy
+      run: ./.build/debug/OldtownBrew --deploy
