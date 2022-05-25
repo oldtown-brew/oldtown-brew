@@ -16,9 +16,6 @@ jobs:
     - name: Build
       run: swift build -v
     - name: Deploy to Github Pages
-      run: |
-#        git config --global user.name "thbonk"
-#        git config --global user.email "thomas@meandmymac.de"
-        ./.build/debug/OldtownBrew --deploy
+      run: ./.build/debug/OldtownBrew --deploy
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
