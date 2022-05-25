@@ -18,10 +18,13 @@ Für die Anmeldung der Hobbybrauerei genügt eine formlose Mail an das
 ```
 Sehr geehrte Damen und Herren,
 
-hiermit zeige ich an, dass ich - <Vorname und Name>, geboren am <Geburtsdatum> - in <Jahr> in meinem Haushalt, 
-<vollständige Adresse>, als Hobbybrauer Bier herstellen werde. Der erste Sud ist für den <Datum erster Sud> geplant. 
+hiermit zeige ich an, dass ich - <Vorname und Name>, geboren 
+am <Geburtsdatum> - in <Jahr> in meinem Haushalt, 
+<vollständige Adresse>, als Hobbybrauer Bier herstellen werde. 
+Der erste Sud ist für den <Datum erster Sud> geplant. 
 
-Die steuerliche Freimenge von 200L pro Jahr werde ich voraussichtlich nicht überschreiten. Falls doch, ist mir das 
+Die steuerliche Freimenge von 200L pro Jahr werde ich 
+voraussichtlich nicht überschreiten. Falls doch, ist mir das 
 Steuerformular 2075 bekannt.
  
 Mit freundlichen Grüßen
