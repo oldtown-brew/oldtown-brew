@@ -133,6 +133,7 @@ img {
     background-color: #fff;
     border-radius: 10px;
     text-align: justify;
+    line-height: 1.6;
 }
 
 .content li {
