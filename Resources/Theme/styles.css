@@ -86,7 +86,7 @@ img {
     display: block;
     padding: 20px;
     border-radius: 10px;
-    background-color: #eee;
+    background-color: #1f1f1f1f;
     margin-bottom: 20px;
 }
 
@@ -131,7 +131,9 @@ img {
     padding: 40px 40px 40px 40px;
     color: #000;
     background-color: #fff;
-    border-radius: 16px;
+    border-radius: 10px;
+    text-align: justify;
+    line-height: 1.6;
 }
 
 .content li {
@@ -170,7 +172,8 @@ footer {
     }
 
     .item-list > li {
-        background-color: #333;
+        color: #000;
+        background-color: #ffffff;
     }
 
     header {
