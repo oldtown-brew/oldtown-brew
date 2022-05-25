@@ -13,10 +13,17 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build
-      run: swift build -v
-    - name: Deploy to Github Pages
-      env:
-        AUTHENTICATION_TOKEN: '${{ secrets.GH_TOKEN }}'
-      run: ./.build/debug/OldtownBrew --deploy
-      
+    - name: Build WebSite
+      run: swift run
+    - name: Set Public Folder
+        run: |
+            mkdir .public
+            cp -r Output/* .public
+            mv .public public
+    - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          branch: main
+          folder: public
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}      
