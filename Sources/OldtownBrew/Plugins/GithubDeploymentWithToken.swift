@@ -13,7 +13,6 @@ extension DeploymentMethod {
   /// - parameter repository: The full name of the repository (including its username).
   /// - parameter tokenEnvName: The environment variable that contains the token
   /// - parameter branch: The branch to push to and pull from (default is master).
-  /// - parameter useSSH: Whether an SSH connection should be used (preferred).
   static func gitHub(_ repository: String, tokenEnvName: String, branch: String = "master") -> Self {
     let token = ProcessInfo.processInfo.environment[tokenEnvName]!
     let prefix = "https://\(token)@github.com/"
