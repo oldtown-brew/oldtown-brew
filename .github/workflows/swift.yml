@@ -16,7 +16,10 @@ jobs:
     - name: Build WebSite
       run: swift run
     - name: Set Public Folder
-        run: mkdir .public && cp -r Output/* .public && mv .public public
+      run: |
+        mkdir .public 
+        cp -r Output/* .public 
+        mv .public public
     - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
