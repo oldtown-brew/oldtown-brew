@@ -70,6 +70,7 @@ extension Theme where Site == OldtownBrew {
             SiteHeader(context: context, selectedSelectionID: item.sectionID)
             Wrapper {
               Article {
+                Div("\(display(date: item.date))").class("article-date")
                 Div(item.content.body).class("content")
                 if !item.tags.isEmpty {
                   Span("Schlagwörter: ")
@@ -160,6 +161,7 @@ private struct ItemList<Site: Website>: Component {
     List(items.sorted(by: { $0.date > $1.date })) { item in
       Article {
         H1(Link(item.title, url: item.path.absoluteString))
+        Div("\(display(date: item.date))").class("date")
         ItemTagList(item: item, site: site)
         Paragraph(item.description)
       }
@@ -234,6 +236,7 @@ private struct Wrapper: ComponentContainer {
 
 func display(date: Date) -> String {
   let formatter = DateFormatter()
-  formatter.dateStyle = .medium
+  formatter.dateStyle = .long
+  formatter.timeStyle = .short
   return formatter.string(from: date)
 }

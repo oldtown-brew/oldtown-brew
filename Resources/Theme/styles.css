@@ -82,6 +82,22 @@ img {
     margin-bottom: 40px;
 }
 
+div.date {
+  color: grey;
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-top: -10px;
+}
+
+div.article-date {
+  position: absolute;
+  color: grey;
+  font-size: 12px;
+  margin-left: 40px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
 .item-list > li {
     display: block;
     padding: 20px;
@@ -149,12 +165,6 @@ img {
     font-size: 1.4em;
     margin-right: 10px;
     padding: 6px 10px;
-}
-
-date {
-  font-size: 1.0em;
-  margin-right: 10px;
-  padding: 6px 10px;
 }
 
 footer {
