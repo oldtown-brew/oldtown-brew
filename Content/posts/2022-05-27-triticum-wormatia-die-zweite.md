@@ -34,7 +34,7 @@ was die Sudhausausbeute betrifft. Wahrscheinlich werde ich das Verfahren nicht m
 anwenden, da es beim Maischen viel mehr Arbeit bedeutet. Ich bin gespannt, wie es
 sich geschmacklich auswirkt. 
 
-Zwischendurch habe ich mir eine Flasche meines Pale Ales gegönnt 😀
+Zwischendurch habe ich mir eine Flasche meines [Pale Ales](/posts/2022-04-30-zweiter-sud-mit-eigenem-rezept/) gegönnt 😀
 
 <img src="/images/2022-05-27-triticum-wormatia-die-zweite/1.jpg" width="40%"/>
 <img src="/images/2022-05-27-triticum-wormatia-die-zweite/2.jpg" width="40%"/>
