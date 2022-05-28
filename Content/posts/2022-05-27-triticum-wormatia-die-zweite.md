@@ -6,7 +6,7 @@ draft: false
 ---
 #  Triticum Wormatia, die Zweite
 
-An Vatertag hab ich meinen dritten Sud gemacht, nochmal das Triticum Wormatia.
+An Vatertag habe ich meinen dritten Sud gemacht, nochmal das Triticum Wormatia.
 Um etwas mehr Ausschlagvolumen zu bekommen, habe ich mit dem Doppelmaischverfahren
 und insgesamt 8kg Malz gearbeitet.
 
