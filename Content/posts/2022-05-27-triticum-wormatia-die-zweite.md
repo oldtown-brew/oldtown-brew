@@ -24,6 +24,9 @@ Mein Maischplan sah so aus:
 - Abmaischen
 
 Der weitere Prozess entsprach dem [Originalrezept](https://www.maischemalzundmehr.de/index.php?id=257&inhaltmitte=rezept&suche_begriff=triticum%20Wormatia).
+Dieses Mal habe ich auch die Wyeast 3068 benutzt und vorher einen Starter angesetzt. Die Hefe
+ist ziemlich schnell angekommen und am nächsten Morgen hat das Jungbier schon heftigst gegoren.
+Vergoren wird bei 20°C.
 
 Die Vorderwürze war bei 12,4°Plato, nach dem Würzekochen habe ich die Würze
 verdünnt, um auf 12,5°Plato zu kommen. Die Ausschlagmenge sind ca 26L, die Sudhausausbeute
