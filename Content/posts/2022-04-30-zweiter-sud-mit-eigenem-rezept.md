@@ -53,11 +53,42 @@ hoffentlich noch einiges an Ananas dazu.
 Ich vergäre in einem Terminator von Brewolution; wenn ich mehr Erfahrungen mit
 dem Gerät gesammelt habe, werden ich ein Review schreiben.
 
-<img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/1.jpg" width="40%"/>
-<img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/2.jpg" width="40%"/>
-<img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/3.jpg" width="40%"/>
-<img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/4.jpg" width="40%"/>
-<img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/5.jpg" width="40%"/>
-<img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/6.jpg" width="40%"/>
-<img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/7.jpg" width="40%"/>
-<img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/8.jpg" width="40%"/>
+<!-- The gallery -->
+<div class="row">
+  <div class="column">
+    <img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/1.jpg" onclick="enlargeGalleryImage(this);">
+  </div>
+  <div class="column">
+    <img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/2.jpg" onclick="enlargeGalleryImage(this);">
+  </div>
+  <div class="column">
+    <img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/3.jpg" onclick="enlargeGalleryImage(this);">
+  </div>
+  <div class="column">
+    <img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/4.jpg" onclick="enlargeGalleryImage(this);">
+  </div>
+  <div class="column">
+    <img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/5.jpg" onclick="enlargeGalleryImage(this);">
+  </div>
+  <div class="column">
+    <img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/6.jpg" onclick="enlargeGalleryImage(this);">
+  </div>
+  <div class="column">
+    <img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/7.jpg" onclick="enlargeGalleryImage(this);">
+  </div>
+  <div class="column">
+    <img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/8.jpg" onclick="enlargeGalleryImage(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
