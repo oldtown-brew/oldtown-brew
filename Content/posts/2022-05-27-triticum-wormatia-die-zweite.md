@@ -1,6 +1,5 @@
 ---
 date: 2022-05-27 09:02
-description: An Vatertag habe ich meinen dritten Sud gemacht, nochmal das Triticum Wormatia. Um etwas mehr Ausschlagvolumen zu bekommen, habe ich mit dem Doppelmaischverfahren und insgesamt 8kg Malz gearbeitet.
 tags: Sude,Weizenbier,Doppelmaischverfahren
 draft: false
 ---
@@ -9,7 +8,7 @@ draft: false
 An Vatertag habe ich meinen dritten Sud gemacht, nochmal das Triticum Wormatia.
 Um etwas mehr Ausschlagvolumen zu bekommen, habe ich mit dem Doppelmaischverfahren
 und insgesamt 8kg Malz gearbeitet.
-
+<!-- PAGEBREAK -->
 Mein Maischplan sah so aus:
 
 - Einmaischen: 65°C

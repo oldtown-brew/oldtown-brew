@@ -1,6 +1,5 @@
 ---
 date: 2022-04-30 21:36
-description: Heute habe ich meinen zweiten Sud gemacht. Eigentlich wollte ich Euch ja erst in 3-4 Wochen davon berichten, da das Rezept auf meinem Mist gewachsen ist und ich als Anfänger nicht weiß, ob es etwas wird.
 tags: Sude,Pale Ale,Rezept
 draft: false
 ---
@@ -13,7 +12,7 @@ ich als Anfänger nicht weiß, ob es etwas wird. Die Basis ist das Bach's Spezia
 Julian schrieb, dass man sein Rezept auch obergärig brauen kann, dann wird es
 halt ein anderes Bier. Czech Saaz hat mir nicht so gefallen, weshalb ich mich
 für den Amarillo entschieden habe.
-
+<!-- PAGEBREAK -->
 Das ist mein Rezept:
 
 - **Malze:**

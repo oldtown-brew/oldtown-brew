@@ -169,7 +169,7 @@ private struct ItemList<Site: Website>: Component {
         H1(Link(item.title, url: item.path.absoluteString))
         Div("\(display(date: item.date))").class("date")
         ItemTagList(item: item, site: site)
-        Paragraph(item.description)
+        Paragraph(item.indexDescription)
       }
     }
     .class("item-list")

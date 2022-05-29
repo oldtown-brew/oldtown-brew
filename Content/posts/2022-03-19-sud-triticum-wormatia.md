@@ -1,6 +1,5 @@
 ---
 date: 2022-03-19 21:59
-description: Heute habe ich meinen ersten Sud gemacht: Das Triticum Wormatia von Maische Malz und Mehr. Es lief alles gut, allerdings musste ich die Verzuckerungsrast zweimal um 20 Minuten auf insgesamt 60 Minuten verlängern, bis die Maische keine Stärke mehr enthalten hat. Der Grund hierfür liegt wohl am Klimawandel: Durch die warmen und trockenen Sommer scheint sich die Stärkestruktur im Getreide geändert zu haben, weshalb man heutzutage bei 64°C einmaischen sollte (gilt für alle Rezepte). Das Rezept wurde vor zehn Jahren erstellt, damals gab es das Problem noch nicht in diesem Maße.
 draft: false
 tags: Sude,Weizenbier,Maische Malz und Mehr
 ---
@@ -13,7 +12,7 @@ Verzuckerungsrast zweimal um 20 Minuten auf insgesamt 60 Minuten verlängern, bi
 hat. Der Grund hierfür liegt wohl am Klimawandel: Durch die warmen und trockenen Sommer scheint sich die Stärkestruktur
 im Getreide geändert zu haben, weshalb man heutzutage bei 64°C einmaischen sollte (gilt für alle Rezepte). 
 Das Rezept wurde vor zehn Jahren erstellt, damals gab es das Problem noch nicht in diesem Maße.
-
+<!-- PAGEBREAK -->
 Im Whirlpool habe ich 4g mehr Saphir zugegeben, da mir herbere Biere besser schmecken. Nach dem Kochen hatte die Würze 
 14.5°P; ich habe die Würze vor dem Anstellen mit 3L Wasser verdünnt, da ich bei 12.5°P - 13°P rauskommen wollte. 
 Im Gegensatz zum Rezept habe ich mit einer WLP380 angestellt. 
