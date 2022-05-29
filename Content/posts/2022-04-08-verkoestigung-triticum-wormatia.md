@@ -2,9 +2,8 @@
 date: 2022-04-08 19:36
 tags: Sude,Verköstigung 
 draft: false
-headerImage: /images/2022-04-08-verkoestigung-triticum-wormatia/header.jpg
+featured_image: /images/2022-04-08-verkoestigung-triticum-wormatia/header.jpg
 ---
-<img src="/images/2022-04-08-verkoestigung-triticum-wormatia/header.jpg" width="100%"/>
 #  Verköstigung: Triticum Wormatia
 
 Heute habe ich mein erstes selbstgebrautes Triticum Wormatia verköstigt. Nach der Flaschengärung stand es ein Tag im 

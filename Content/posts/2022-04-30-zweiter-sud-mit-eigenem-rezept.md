@@ -2,8 +2,8 @@
 date: 2022-04-30 21:36
 tags: Sude,Pale Ale,Rezept
 draft: false
+featured_image: /images/2022-04-30-zweiter-sud-mit-eigenem-rezept/header.jpg 
 ---
-<img src="/images/2022-04-30-zweiter-sud-mit-eigenem-rezept/header.jpg" width="100%"/>
 # Zweiter Sud mit eigenem Rezept
 
 Heute habe ich meinen zweiten Sud gemacht. Eigentlich wollte ich Euch ja erst

@@ -77,7 +77,10 @@ extension Theme where Site == OldtownBrew {
             Wrapper {
               Article {
                 Div("\(display(date: item.date))").class("article-date")
-                Div(item.content.body).class("content")
+                Div {
+                  FeaturedImage(item: item)
+                  Div(item.content.body)
+                }.class("content")
                 if !item.tags.isEmpty {
                   Span("Schlagwörter: ")
                   ItemTagList(item: item, site: context.site)
@@ -166,6 +169,7 @@ private struct ItemList<Site: Website>: Component {
   var body: Component {
     List(items.sorted(by: { $0.date > $1.date })) { item in
       Article {
+        FeaturedImage(item: item as! Item<OldtownBrew>)//item: item)
         H1(Link(item.title, url: item.path.absoluteString))
         Div("\(display(date: item.date))").class("date")
         ItemTagList(item: item, site: site)
@@ -173,6 +177,20 @@ private struct ItemList<Site: Website>: Component {
       }
     }
     .class("item-list")
+  }
+}
+
+private struct FeaturedImage: Component {
+  var item: Item<OldtownBrew>
+
+  var body: Component {
+    if let img = item.metadata.featured_image {
+      return Image(img)
+        .attribute(Attribute<OldtownBrew>(name: "width", value: "100%"))
+        .class("featured-image")
+    } else {
+      return Text("")
+    }
   }
 }
 

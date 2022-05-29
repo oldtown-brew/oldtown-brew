@@ -2,8 +2,8 @@
 date: 2022-03-30 19:36
 tags: Sude,Abfüllung 
 draft: false
+featured_image: /images/2022-03-31-abfuellung-triticum-wormatia/header.jpg
 ---
-<img src="/images/2022-03-31-abfuellung-triticum-wormatia/header.jpg" width="100%"/>
 #  Abfüllung: Triticum Wormatia
 
 Heute habe ich mein erstes Jungbier abgefüllt, nachdem sich seit 4 Tagen der Restextrakt nicht mehr geändert hat. 
