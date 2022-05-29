@@ -47,6 +47,12 @@ nav {
     margin-top: 20px;
 }
 
+img.featured-image {
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
 nav li {
     display: inline-block;
     margin: 0 7px;
