@@ -1,5 +1,6 @@
 name: Build on commit
 on:
+  workflow_dispatch:
   push:
     branches: [ authoring ]
   pull_request:
