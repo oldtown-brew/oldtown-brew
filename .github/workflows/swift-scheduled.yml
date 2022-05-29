@@ -1,6 +1,7 @@
 name: Run once a day
 on:
   schedule:
+    branches: [ authoring ]
     - cron:  '0 0 * * *'
 jobs:
   build:
