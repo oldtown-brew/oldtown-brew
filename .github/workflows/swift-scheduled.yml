@@ -1,9 +1,7 @@
-name: Build on commit
+name: Run once a day
 on:
-  push:
-    branches: [ authoring ]
-  pull_request:
-    branches: [ authoring ]
+  schedule:
+    - cron:  '0 0 * * *'
 jobs:
   build:
     runs-on: macos-12
