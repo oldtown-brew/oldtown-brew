@@ -54,7 +54,7 @@ nav li {
 }
 
 nav li a.selected {
-    text-decoration: underline;
+    text-decoration: bold;
 }
 
 h1 {

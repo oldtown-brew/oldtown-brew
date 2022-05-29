@@ -28,7 +28,7 @@ extension Theme where Site == OldtownBrew {
               items: context.allItems(
                 sortedBy: \.date,
                 order: .descending
-              ).filter({ $0.sectionID != .impressum }),
+              ).filter({ $0.sectionID != .impressum && $0.sectionID != .links }),
               site: context.site
             )
           }
@@ -42,7 +42,13 @@ extension Theme where Site == OldtownBrew {
         let imprint = section.items.first
 
         if let ip = imprint {
-          return try makePageHTML(for: Page(path: ip.path, content: ip.content), context: context)
+          return try makeItemHTML(for: ip, context: context)
+        }
+      } else if section.id == .links {
+        let links = section.items.first
+
+        if let ln = links {
+          return try makeItemHTML(for: ln, context: context)
         }
       }
 
@@ -206,10 +212,9 @@ private struct SiteHeader<Site: Website>: Component {
       List(Site.SectionID.allCases) { sectionID in
         let section = context.sections[sectionID]
 
-        return Link(section.title,
-                    url: section.path.absoluteString
-        )
-        .class(sectionID == selectedSelectionID ? "selected" : "")
+        return Link(
+          section.title, url: section.path.absoluteString)
+        //.class(sectionID == selectedSelectionID ? "selected" : "")
       }
     }
   }
