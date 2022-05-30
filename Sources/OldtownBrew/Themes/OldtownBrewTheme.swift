@@ -13,7 +13,7 @@ extension Theme where Site == OldtownBrew {
   static var oldtownBrew: Self {
     Theme(
       htmlFactory: OldtownBrewHTMLFactory(),
-      resourcePaths: ["Resources/Theme/styles.css", "Resources/Images/Logo.png"])
+      resourcePaths: ["Resources/theme/styles.css", "Resources/images/Logo.png"])
   }
 
   private struct OldtownBrewHTMLFactory: HTMLFactory {
@@ -71,7 +71,6 @@ extension Theme where Site == OldtownBrew {
         .lang(context.site.language),
         .head(for: item, on: context.site),
         .body(
-          .script(.src("/Theme/gallery.js")),
           .class("item-page"),
           .components {
             SiteHeader(context: context, selectedSelectionID: item.sectionID)

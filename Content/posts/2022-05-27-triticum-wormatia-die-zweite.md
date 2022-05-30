@@ -41,30 +41,14 @@ Zwischendurch habe ich mir eine Flasche meines [Pale Ales](/posts/2022-05-27-tri
 <!-- The gallery -->
 <div class="row">
   <div class="column">
-    <img src="/images/2022-05-27-triticum-wormatia-die-zweite/1.jpg" onclick="enlargeGalleryImage(this);">
+    <img src="/images/2022-05-27-triticum-wormatia-die-zweite/1.jpg">
+    <img src="/images/2022-05-27-triticum-wormatia-die-zweite/2.jpg">
   </div>
   <div class="column">
-    <img src="/images/2022-05-27-triticum-wormatia-die-zweite/2.jpg" onclick="enlargeGalleryImage(this);">
+    <img src="/images/2022-05-27-triticum-wormatia-die-zweite/3.jpg">
+    <img src="/images/2022-05-27-triticum-wormatia-die-zweite/4.jpg">
   </div>
   <div class="column">
-    <img src="/images/2022-05-27-triticum-wormatia-die-zweite/3.jpg" onclick="enlargeGalleryImage(this);">
+    <img src="/images/2022-05-27-triticum-wormatia-die-zweite/5.jpg">
   </div>
-  <div class="column">
-    <img src="/images/2022-05-27-triticum-wormatia-die-zweite/4.jpg" onclick="enlargeGalleryImage(this);">
-  </div>
-  <div class="column">
-    <img src="/images/2022-05-27-triticum-wormatia-die-zweite/5.jpg" onclick="enlargeGalleryImage(this);">
-  </div>
-</div>
-
-<!-- The expanding image container -->
-<div class="container">
-  <!-- Close the image -->
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-
-  <!-- Expanded image -->
-  <img id="expandedImg" style="width:100%">
-
-  <!-- Image text -->
-  <div id="imgtext"></div>
 </div>
