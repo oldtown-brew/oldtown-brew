@@ -204,63 +204,38 @@ footer {
 }
 
 /****** Image Gallery */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
 .column {
-  float: left;
-  width: 15%;
-  padding: 10px;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
 }
 
-/* Style the images inside the grid */
 .column img {
-  opacity: 0.8;
-  cursor: pointer;
+  margin-top: 8px;
+  vertical-align: middle;
   width: 100%;
-  height: 80px;
-  object-fit: cover;
   border-radius: 10px;
 }
 
-.column img:hover {
-  opacity: 1;
-  border-radius: 10px;
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* The expanding image container (positioning is needed to position the close button and the text) */
-.container {
-  position: absolute;
-  top: 10%;
-  left: 10%;
-  width: 80%;
-  display: none;
-  border-radius: 10%;
-}
-
-.container img {
-  border-radius: 10px;
-}
-
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
-}
-
-/* Closable button inside the image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
